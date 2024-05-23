@@ -1,0 +1,19 @@
+theme = "zed_onedark"
+
+[editor]
+line-number = "relative"
+mouse = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal]
+S-h = ":buffer-previous"
+S-l = ":buffer-next"
+S-right = ":buffer-next"
+S-left = ":buffer-previous"

@@ -1,0 +1,10 @@
+[[language]]
+name = "python"
+language-servers = ["pylsp", "ruff-lsp"]
+
+[langauge-server.pylsp.config.pylsp]
+plugins.pyls_mypy.enabled = true
+plugins.pyls_mypy.live_mode = true
+
+[langauge-server.ryff-lsp]
+command = "ruff-lsp"
