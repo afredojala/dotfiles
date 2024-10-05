@@ -287,7 +287,7 @@ theme "tokyo-night-storm"
 // The name of the default layout to load on startup
 // Default: "default"
 //
-// default_layout "compact"
+default_layout "compact"
 
 // Choose the mode that zellij uses when starting up.
 // Default: normal
@@ -317,8 +317,8 @@ theme "tokyo-night-storm"
 // that will be used by default if this option is not set.
 // Examples:
 //
-copy_command "xclip -selection clipboard" // x11
-// copy_command "wl-copy"                    // wayland
+// copy_command "xclip -selection clipboard" // x11
+copy_command "wl-copy"                    // wayland
 // copy_command "pbcopy"                     // osx
 
 // Choose the destination for copied text
