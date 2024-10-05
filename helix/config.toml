@@ -24,6 +24,8 @@ X = "extend_line_above"
 C-x = ":buffer-close"
 S-h = ":buffer-previous"
 S-l = ":buffer-next"
+S-left = ":buffer-previous"
+S-right = ":buffer-next"
 
 
 
