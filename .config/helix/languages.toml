@@ -1,0 +1,12 @@
+[language-server.ruff]
+command = "uvx"
+args = ["ruff", "server", "-q", "--preview"]
+
+[language-server.pyright]
+command = "uvx"
+args = ["--from", "basedpyright", "basedpyright-langserver", "--stdio"]
+
+[[language]]
+name = "python"
+language-servers = [{name = "pyright"}, "ruff"]
+formatter = {command = "uvx", args = ["ruff", "format", "-"]}
